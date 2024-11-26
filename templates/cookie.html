@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find the Flag!</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="cookie-screen">
+    <h1>Welcome! Find the Flag!</h1>
+    <p>What if you changed "almost" to "complete"?<p>
+    <p>How would you manipulate a cookie?</p>
+    
+    <div class="riddle-container">
+      <p>{{ hint }}</p> 
+    </div>
+
+    <p>Good luck!</p>
+  </div>
+</body>
+</html>
+
+

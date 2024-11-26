@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #login-screen, #cookie-screen {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #cookie-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #cookie-image-container {
+    margin-top: 20px;
+  }
+  
